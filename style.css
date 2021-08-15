@@ -1,0 +1,61 @@
+
+* {box-sizing: border-box;margin: 0;padding: 0}
+
+/*css responsive*/
+
+@media only screen and (min-width: 968px) {}}
+@media only screen and (min-width: 600px) {}
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+input.input-field{background:#E9EBEC ;opacity: .7;}
+.input-field {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  border-radius: 20px;
+    margin-left: 5px;
+     border: 1px solid white;
+}
+::placeholder {
+  color: black;font-family: arial;
+}
+.input-field:focus {
+  border: 1px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding:8px 8px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: .7;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+ 
+
+ 
+
+
+
